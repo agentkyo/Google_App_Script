@@ -1,4 +1,4 @@
-function buscarjson_qsa(target_cnpj) {
+function consultarCnpjReceitaFederal(target_cnpj) {
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getSheets()[0];
